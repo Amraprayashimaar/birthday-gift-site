@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: pink;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(79, 79, 149),pink);
+
+}
+
+h1, h2, h4{
+    text-shadow: 0px 0px 16px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 40%;
+    border: 6px solid rgb(127, 127, 71);
+
+}
+
+#bday-age{
+    background: green;
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin: 5px 0 10px 0;
+    
+}
+
+#bday-date{
+    margin: 0;
+    background: green;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+.gift-img {
+    width: 500px;
+    height: 400px;
+    background-image: url(https://i.pinimg.com/originals/99/42/6d/99426dd93cc191ddabe5d07529c3de11.png);
+    background-size: cover;
+}
+
+#gift-img-happy:hover{
+    background-image: url(https://media1.tenor.com/m/pWV0cZ_iEOsAAAAC/birthday-happy-birthday.gif);
+}
+
+#gift-img-hot:hover{
+    background-image: url(https://media1.tenor.com/m/YcfeYfkss1MAAAAC/happy-yes.gif);
+height: 500px;
+}
+#gift-img-sweet:hover{
+
+background-image: url(https://media1.tenor.com/m/10VS5CY_igcAAAAC/so-c.gif);
+}
+#gift-img-funney:hover{
+    background-image: url(https://media1.tenor.com/m/OevlAzqJgHwAAAAd/funny-excited.gif);
+}
